@@ -14,10 +14,7 @@ public class PalindromeInteger {
             number/=10;
             reversedNum=reversedNum*10+lastDigit;
         }
-        if(original==reversedNum){
-            return true;
-        }else{
-            return false;
+        return original == reversedNum;
         }
     }
-}
+
